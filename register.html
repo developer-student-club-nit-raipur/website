@@ -1,0 +1,216 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>DSC NIT Raipur</title>
+        <link rel="shortcut icon" href="images/dsc.png" type="image/x-icon" />
+        <link
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans"
+        rel="stylesheet"
+        />
+        <!-- Bulma Version 0.7.4-->
+        <link rel="stylesheet" href="styles/css/bulma.min.css" />
+        <style type="text/css">
+        .container{
+            padding-bottom: 30px;
+        }
+        html,
+        body {
+            font-family: "Open Sans";
+        }
+        
+            input[type="text"] {          
+            margin: 8px 0;
+            padding: 8px;
+            transition: 0.3s;
+            }
+            input[type="email"] {          
+            margin: 8px 0;
+            padding: 8px;
+            transition: 0.3s;
+            }
+
+            input[type="text"]:focus {
+            border-color: dodgerBlue;
+            box-shadow: 0 0 8px 0 dodgerBlue;
+            }
+
+            .inputWithIcon input[type="text"] {
+            padding-left: 40px;
+            }
+            .inputWithIcon input[type="email"] {
+            padding-left: 38px;
+            }
+            .inputWithIcon {
+            position: relative;
+            }
+
+            .inputWithIcon i {
+            position: absolute;
+            left: 0;
+            top: 8px;
+            padding: 9px 8px;
+            color: #aaa;
+            transition: 0.3s;
+            }
+
+            .inputWithIcon input[type="text"]:focus + i {
+            color: dodgerBlue;
+            }
+            .inputWithIcon input[type="email"]:focus + i {
+            color: dodgerBlue;
+            }
+        </style>
+    </head>
+    <body>
+        
+            <section class="hero is-fullheight is-default is-bold">
+                <div class="hero-head">
+                <div class="container">
+                    <nav class="navbar" role="navigation" aria-label="main navigation">
+                    <div class="navbar-brand">
+                        <a
+                        role="button"
+                        class="navbar-burger burger"
+                        aria-label="menu"
+                        aria-expanded="false"
+                        data-target="navbarBasicExample"
+                        >
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        </a>
+                    </div>
+        
+                    <div id="navbarBasicExample" class="navbar-menu">
+                        <div class="navbar-start">
+                        <a class="navbar-item">
+                            <strong>DSC NIT RAIPUR</strong>
+                        </a>
+                        </div>
+        
+                        <div class="navbar-end">
+                        <a href="index.html"class="navbar-item" class="button is-light">
+                            Home
+                        </a>
+        
+                        <a class="navbar-item">
+                            About
+                        </a>
+        
+                        <a class="navbar-item">
+                            Bootcamps
+                        </a>
+        
+                        <a class="navbar-item">
+                            Previous Events
+                        </a>
+        
+                        <div class="navbar-item">
+                            <div class="buttons">
+                            <a href="register.html" class="button is-light">
+                                Register
+                            </a>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </nav>
+                </div>
+                </div>
+            <!--REGISTER FORM CODE-->
+            <div style="margin:auto; font-size:30px; margin-top: 10px">
+                <h1 style="font-family:courier;">REGISTER FORM</h1>
+            </div>
+            
+                <div class="container">
+                    <div class="field">
+                        <label class="label">Full Name</label>
+                        <div class="inputWithIcon">
+                            <input class="input" type="text" placeholder="Text input">
+                            <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
+                        </div>   
+                    </div>
+                    
+                    <div class="field">
+                            <label class="label">College Name</label>
+                            <div class="control has-icons-left has-icons-right">
+                            <input class="input" type="text" placeholder="Enter Your College Name">
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-user"></i>
+                            </span>
+                            </div>
+                            <p class="help is-success">This is needed just for survey</p>
+                    </div>
+                    
+                    <div class="field">
+                            <label class="label">Email</label>
+                            <div class="inputWithIcon">
+                            <input class="input" type="text" placeholder="   Enter Email Id">
+                                <i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i>
+                            </div>
+                            <p class="help is-danger">This email is invalid</p>
+                    </div>
+                    
+                    <div class="field">
+                        <label class="label">DOMAIN</label>
+                        <div class="control">
+                            <div class="select">
+                                <select>
+                                <option>Select---</option>
+                                <option>Web Development</option>
+                                <option>Machine Learning</option>
+                                <option>Android</option>
+                                <option>Internet Of Things</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="field">
+                        <label class="label">Development Idea(if any)</label>
+                        <div class="control">
+                            <textarea class="textarea" placeholder="Textarea"></textarea>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="control">
+                            <div>
+                                <h3>Do you have github account:</h3>
+                            </div>
+                            <label class="radio">
+                                <input type="radio" name="question">
+                                Yes
+                            </label>
+                            <label class="radio">
+                                <a href="www.google.com"><input type="radio" name="question"></a>
+                                No
+                            </label>
+                        </div>
+                    </div>
+                    <div class="field">
+                            <div class="control">
+                            <label class="checkbox">
+                                <input type="checkbox">
+                                I agree to the <a href="tAndC.html">terms and conditions</a>
+                            </label>
+                            </div>
+                    </div>
+                    
+                    <div class="field is-grouped">
+                        <div class="control">
+                        <button class="button is-link">Submit</button>
+                    </div>
+                        <div class="control">
+                            <button class="button is-text">Cancel</button>
+                        </div>
+                    </div>
+                </div>       
+        </section>
+    </body>
+</html>
